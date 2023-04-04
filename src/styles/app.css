@@ -1,0 +1,161 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.restaurant-logo {
+    position:absolute;
+    left:0;
+    top:0;
+    width: 200px;
+}
+
+.pickUp {
+    width: auto;
+    display: inline;
+}
+.form-control:focus {
+    box-shadow: 0 0 0 0.15rem #d6e8c4;
+}
+.btn-outline-success {
+    float: right;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+
+form{
+    margin-left: 30%;
+}
+.sidebar{
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    left: 0;
+    background: #799f54;
+    margin-top: 40px;
+}
+/*.sidebar router-link {*/
+/*    display: block;*/
+/*    */
+/*}*/
+.sidebar .text{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 65px;
+    text-align: center;
+    background: #799f54;
+    letter-spacing: 1px;
+}
+
+nav ul{
+    /*background: #799f54;*/
+    height: 100%;
+    width: 100%;
+    list-style: none;
+}
+
+nav ul li {
+    line-height: 60px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+nav ul li .nav-link{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 30px;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    border-left: 3px solid transparent;
+}
+nav ul li .nav-link:hover{
+    color: #084d25;
+    background: #bed2a5;
+    border-left-color: #18e06a;
+}
+nav ul ul {
+    position: static;
+    padding-left: 1rem;
+}
+
+nav ul ul li {
+    line-height: 40px;
+    border-bottom: none;
+}
+nav ul ul li .nav-link{
+    font-size: 17px;
+    color: #e6e6e6;
+    padding-left: 40px;
+}
+nav ul li .nav-link span{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 22px;
+    transition: transform 0.4s;
+}
+.nav-fill .nav-item, .nav-fill>.nav-link {
+    flex: 1 1 auto;
+    text-align: center;
+    background-color: #e2f3e4;
+}
+
+.food {
+    padding-left: 10px;
+
+}
+.menu-view, .cart-view {
+    padding-top: 30px;
+    padding-left: 150px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #799f54;
+}
+.nav-link {
+    color: #084d25;
+}
+
+.footer {
+    /*position: fixed;*/
+    /*padding: 20px 10px 20px 10px;*/
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    margin-top: 40px;
+    /*padding-top: 20px;*/
+    text-align: center;
+    color: #084d25;
+}
+
+.avatar {
+    border-radius: 50%;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.warninglb{
+    background-color: #dfdf87;
+}
+
+/*@media screen and (max-width: 700px) {*/
+/*    .sidebar {*/
+/*        width: 100%;*/
+/*        height: auto;*/
+/*        position: relative;*/
+/*    }*/
+    /*.sidebar .text {float: left;}*/
+    /*.sidebar router-link {float: left;}*/
+    /*div.content {margin-left: 0;}*/
+/*}*/
+
+/*@media screen and (max-width: 400px) {*/
+/*    .sidebar .text, .sidebar.nav-link{*/
+/*        text-align: center;*/
+/*        float: none;*/
+/*    }*/
+/*}*/
